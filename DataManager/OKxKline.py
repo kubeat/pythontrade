@@ -35,12 +35,12 @@ def postRun():
      #df.to_csv(path,mode='a',index=None,columns=None,header=None)
 
 
-t = RepeatingTimer(3.0, postRun)
-t.start()
+# t = RepeatingTimer(3.0, postRun)
+# t.start()
 
 # proxy = {'http': 'http://127.0.0.1:33210', 'https': 'http://127.0.0.1:33210'}
 # base_return = requests.get("https://www.okx.com/api/v5/public/instruments?instType=SWAP",proxies=proxy)
 # print(base_return.text)
 
 if __name__ == '__main__':
-    pass
+    print('xyz...')
